@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+// GIT URL
+
+https://ritugupta64.github.io/react-meme-generator/
+
+
  const randomNum = Math.floor(Math.random() * this.state.imageData.data.memes.length);
             //console.log(randomNum);
             const randomImage = this.state.imageData.data.memes[randomNum].url;
