@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace
+}
 .App {
   text-align: center;
 }
@@ -30,4 +35,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.header{
+  background:url(./assets/images/bg-header.jpeg) left top no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
+  color:#ffffff;
+  padding:10px 0px;
+
+}
+
+.inputField{
+  height:40px;
+  line-height: 40px;
+  padding:5px;
+  border: 1px solid gray;
+  width:39.2%;
+}
+
+.btn{
+  background-color: #282c34;
+  color:#ffffff;
+  padding:20px;
+  font-weight: bold
+
+}
+
+.memeGen{
+  position: relative;
+  margin:10px 0px;
+}
+
+.memeGen img{
+  width: 620px;
+ 
+}
+
+.topText{
+  position: absolute;
+  top:10px;
+  left:5%;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.bottomText{
+  position: absolute;
+  bottom:10px;
+  left:5%;
+  color:#ffffff;
+  font-weight: bold;
+}
+.container{
+  margin:0 auto;
+  width:100%;
+  max-width: 620px;
 }
